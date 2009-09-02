@@ -1,0 +1,57 @@
+#summary Project Vision; Initial Agenda; Action Plan;
+#labels Featured,Phase-Requirements
+
+=Project Vision=
+  # Edge Detection
+  # Texture generation and mapping
+  # Depth Detection
+
+==Constraints==
+  * Use Gray Scale Images
+  * Tactile feedback—bumps and vibrations
+  * Predefined inputs images/graphics
+  * Fixed height of camera and known distance to background
+  * Known color to texture mapping – brown-wood, blue-water, lightbrown-sand, etc
+  * Known geometry of objects
+
+==Future==
+To make this more generic: 
+  # Use Color images
+  # Block based frequency analysis classification: classify images as rough, smooth, etc
+    
+=Plan of Action=
+
+==Team A==
+
+  * Understanding Theory 
+    * Edge detection –complete
+    * Depth detection --algorithm only
+  * Vibration Signals to Texture Mapping
+  * Matlab Programming
+    * Basic programming
+    * Image handling 
+    * Graphics (optional)
+  * High level Demo 
+    * Edge Detection
+    * Depth Detection
+    * Texture Mapping
+
+==Team B==
+  * Finding an API
+    * Matlab
+    * simulink or 
+    * VC haptic plugins
+  * Selecting an API
+    * CHAI3D
+    * H3D
+    * Quick Haptics
+    * Open Haptics
+  * Choosing a Development environment 
+    * Matlab preferred
+    * VC
+    * simulink 
+  * Feasibility check of API - Integrating with Development Environment
+  * Demo on Falcon
+    * Ready Made
+    * Texture rendering
+    * Force rendering
