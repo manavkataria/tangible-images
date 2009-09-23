@@ -1,7 +1,14 @@
-#summary Project Vision; Initial Agenda; Action Plan;
 #labels Featured,Phase-Requirements
+<wiki:toc />
+=Introduction=
+The *Project Vision* is to make an application that lets you _touch and feel_ any digital bitmap image. 
 
-=Project Vision=
+=Abstract=
+To demonstrate an algorithm for generation of *forces* from two dimensional bitmapped digital images. The forces allow the user to feel the contours of the image with sufficient realism using haptic devices. The algorithm can also be used to generate *textures* for virtual surfaces in a simple and efficient manner. (see references)
+
+=Agenda=
+As a part of EE603 DSP and Application course project we attempt to produce touch-feedback from 2D gray-scale digital images.
+
   # Edge Detection
   # Texture generation and mapping
   # Depth Detection
@@ -19,7 +26,7 @@ To make this more generic:
   # Use Color images
   # Block based frequency analysis classification: classify images as rough, smooth, etc
     
-=Plan of Action=
+=Action Plan=
 
 ==Team A==
 
@@ -37,21 +44,26 @@ To make this more generic:
     * Texture Mapping
 
 ==Team B==
-  * Finding an API
-    * Matlab
-    * simulink or 
-    * VC haptic plugins
-  * Selecting an API
-    * CHAI3D
-    * H3D
-    * Quick Haptics
-    * Open Haptics
-  * Choosing a Development environment 
-    * Matlab preferred
-    * VC
-    * simulink 
-  * Feasibility check of API - Integrating with Development Environment
-  * Demo on Falcon
-    * Ready Made
+  * Choosing an Development Environment
+    * *Matlab*
+    * Simulink or 
+    * ~~Visual C++~~
+  * Selecting an API - Feasibility check of features
+    * *[http://sirslab.dii.unisi.it/haptiklibrary/ Haptik Library]* (Open Source)
+    * ~~CHAI3D (Open Source)~~
+    * ~~H3D (Open Source)~~
+    * ~~HAPTX (Novint - High Level)~~
+    * ~~Open Haptics {HDAPI, HLAPI, Quick Haptics} (Sensable)~~
+  * Integration of API with Development Environment
+  * Demo on Falcon 
+    * Ready Made (done)
     * Texture rendering
     * Force rendering
+
+=Future Extensions=
+  * Real-time algorithm
+  * Autonomous/Automated Haptic rendering from input images
+<wiki:comment>
+  * Tangible + Audible Images
+  * Using triangulation of Images rendering 3D scene and rendering haptics to it
+</wiki:comment>
