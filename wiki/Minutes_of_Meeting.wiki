@@ -4,9 +4,9 @@ Table of Contents:
 <wiki:toc max_depth="2" />
 
 = 8 October = 
-Our project has come to an end. Around 70% of the work is done. Keeping in mind *Diwali vacation*, *integration effort* and the *unsolved problems* we should try to wind up the project soon and keep spare time for workarounds. 
+Our project has come to an end. Around 70% of the work is done. Keeping in mind *Diwali vacation*, *integration effort* and the *unsolved problems* we should try to wind up the project soon and *keep spare time* for workarounds. 
 
-Here you can keep track of your tasks and see who is interested in working with you next, you might want to keep him/her posted. Feel free to update this page as you see fit.
+Here you can keep track of *your tasks* and see who is interested in working with you next, you might want to keep him/her posted. Feel free to update this page as you see fit.
 
 *Agenda:*
 Tasks up ahead till Sunday, 11th October
