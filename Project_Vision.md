@@ -1,0 +1,68 @@
+
+# Introduction #
+The **Project Vision** is to make an application that lets you _touch and feel_ any digital bitmap image.
+
+# Abstract #
+To demonstrate an algorithm for generation of **forces** from two dimensional bitmapped digital images. The forces allow the user to feel the contours of the image with sufficient realism using haptic devices. The algorithm can also be used to generate **textures** for virtual surfaces in a simple and efficient manner. (see references)
+
+# Agenda #
+As a part of EE603 DSP and Application course project we attempt to produce touch-feedback from 2D gray-scale digital images.
+
+  1. Edge Detection
+  1. Texture generation and mapping
+  1. Depth Detection
+
+## Constraints ##
+  * Use Gray Scale Images
+  * Tactile feedback—bumps and vibrations
+  * Predefined inputs images/graphics
+  * Fixed height of camera and known distance to background
+  * Known color to texture mapping – brown-wood, blue-water, lightbrown-sand, etc
+  * Known geometry of objects
+
+## Future ##
+To make this more generic:
+  1. Use Color images
+  1. Block based frequency analysis classification: classify images as rough, smooth, etc
+
+# Action Plan #
+
+## Team A ##
+
+  * Understanding Theory
+    * Edge detection –complete
+    * Depth detection --algorithm only
+  * Vibration Signals to Texture Mapping
+  * Matlab Programming
+    * Basic programming
+    * Image handling
+    * Graphics (optional)
+  * High level Demo
+    * Edge Detection
+    * Depth Detection
+    * Texture Mapping
+
+## Team B ##
+  * Choosing an Development Environment
+    * **Matlab**
+    * Simulink or
+    * ~~Visual C++~~
+  * Selecting an API - Feasibility check of features
+    * **[Haptik Library](http://sirslab.dii.unisi.it/haptiklibrary/)** (Open Source)
+    * ~~CHAI3D (Open Source)~~
+    * ~~H3D (Open Source)~~
+    * ~~HAPTX (Novint - High Level)~~
+    * ~~Open Haptics {HDAPI, HLAPI, Quick Haptics} (Sensable)~~
+  * Integration of API with Development Environment
+  * Demo on Falcon
+    * Ready Made (done)
+    * Texture rendering
+    * Force rendering
+
+# Future Extensions #
+  * Real-time algorithm
+  * Autonomous/Automated Haptic rendering from input images
+<a href='Hidden comment: 
+* Tangible + Audible Images
+* Using triangulation of Images rendering 3D scene and rendering haptics to it
+'></a>
