@@ -64,5 +64,3 @@ One of the possible objectives would be to generate textures haptically to give 
   
 **_Updated: 23rd September 2009_**
 
-**Exported from [code.google.com/p/tangible-images]**
-
